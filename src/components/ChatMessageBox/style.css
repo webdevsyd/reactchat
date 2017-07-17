@@ -1,0 +1,15 @@
+.chat-message-box .mdl-textfield {
+	width: 100%;
+}
+.chat-message-box .mdl-textfield .mdl-textfield__input {
+	border-bottom: none;
+	resize: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.chat-message-box .mdl-textfield .mdl-textfield__label {
+	padding: 0 20px;
+}
+.mdl-textfield__label:after {
+	background-color: transparent;
+}

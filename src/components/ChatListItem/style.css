@@ -1,0 +1,21 @@
+.chat-balloon {
+	border-radius: 4px;
+	padding: 8px;
+	max-width: 40%;
+	clear: both;
+	margin-bottom: 15px;
+}
+.chat-balloon.sender{
+	background-color: rgb(63,81,181);
+	float: right;
+}
+.chat-balloon.receiver {
+	background-color: #f1f0f0;
+	float: left;
+}
+.chat-balloon.sender span {
+	color: #fff;
+}
+.chat-balloon.receiver span {
+	color: rgba(0, 0, 0, 1);
+}

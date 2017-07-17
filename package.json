@@ -1,0 +1,36 @@
+{
+  "name": "react-chat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "history": "^4.6.1",
+    "http": "0.0.0",
+    "moment": "^2.18.1",
+    "path": "^0.12.7",
+    "react": "^15.5.4",
+    "react-cookie": "^2.0.7",
+    "react-dom": "^15.5.4",
+    "react-mdl": "^1.10.3",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "socket.io": "^2.0.2",
+    "socket.io-client": "^2.0.2",
+    "universal-cookie": "^2.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "react-scripts": "1.0.7"
+  },
+  "proxy": "http://localhost:8080",
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"node server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
